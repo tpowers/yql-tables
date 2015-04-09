@@ -27,7 +27,7 @@
     var sectorQuery = y.query(
 	"select * from html " +
 	"where url=@url and " + 
-	"xpath='//td[@width=\"50%\"]/table/tr/td'",
+	"xpath='//td[@width=\"50%\"]/table//tr/td'",
 	{url:url});
 
     var sectors = <sectors></sectors>;
